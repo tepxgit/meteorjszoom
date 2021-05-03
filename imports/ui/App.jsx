@@ -1,7 +1,6 @@
 
 import React from "react";
 
-import { ZoomMtg } from "@zoomus/websdk";
 
 ZoomMtg.setZoomJSLib('http://localhost:3000/lib', '/av');
 
@@ -24,8 +23,8 @@ export function App() {
 
 
   function getSignature() {
-    let meetingNumber = '85065401134'
-    let passWord = 'UB5f9U'
+    let meetingNumber = '88220778632'
+    let passWord = 'NS9nT9'
     let role = 0
   
     let signature = ZoomMtg.generateSignature({ apiKey, apiSecret, meetingNumber, role })
