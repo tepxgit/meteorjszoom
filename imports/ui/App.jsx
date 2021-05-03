@@ -2,12 +2,12 @@
 import React from "react";
 
 
-ZoomMtg.setZoomJSLib('http://localhost:3000/lib', '/av');
+//ZoomMtg.setZoomJSLib('http://localhost:3000/lib', '/av');
 
 //ZoomMtg.setZoomJSLib('https://source.zoom.us/1.9.1/asdasd', '/av');
-ZoomMtg.setZoomJSLib('https://source.zoom.us/1.9.1/lib', '/av');
+//ZoomMtg.setZoomJSLib('https://source.zoom.us/1.9.1/lib', '/av');
 //ZoomMtg.setZoomJSLib('\/lib', "av"); 
-//ZoomMtg.setZoomJSLib("https://jssdk.zoomus.cn/1.9.0/lib", "/av"); 
+ZoomMtg.setZoomJSLib("https://jssdk.zoomus.cn/1.9.0/lib", "/av"); 
 ZoomMtg.preLoadWasm();
 ZoomMtg.prepareJssdk();
 
