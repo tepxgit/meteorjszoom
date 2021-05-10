@@ -1,7 +1,9 @@
 
 import React from "react";
 
-//var ZoomMtg
+let ZoomMtg = window.ZoomMtg
+// let ZoomMtg
+// var ZoomMtg
 //ZoomMtg.setZoomJSLib("https://jssdk.zoomus.cn/1.9.0/lib", "/av"); 
 
 ZoomMtg.setZoomJSLib('https://source.zoom.us/1.9.1/lib', '/av');
@@ -11,8 +13,8 @@ ZoomMtg.prepareJssdk();
 
 export function App() {
 
-  let apiKey = "S5qSQABQTgmgz5VxSuvz-Q"
-  let apiSecret = "h3GFC5HhCbbI5SMgvM9dHqa5oPHK1tyAwhbF"
+  let apiKey = ""
+  let apiSecret = ""
 
   var leaveUrl = 'http://localhost:3000'
   var userName = 'React'
@@ -20,8 +22,8 @@ export function App() {
 
 
   function getSignature() {
-    let meetingNumber = '83337582033'
-    let passWord = 'uvHsy0'
+    let meetingNumber = '82103882786'
+    let passWord = '62LrY1'
     let role = 0
   
     let signature = ZoomMtg.generateSignature({ apiKey, apiSecret, meetingNumber, role })
