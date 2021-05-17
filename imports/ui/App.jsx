@@ -22,8 +22,8 @@ export function App() {
 
 
   function getSignature() {
-    let meetingNumber = '82103882786'
-    let passWord = '62LrY1'
+    let meetingNumber = '81037492750' 
+    let passWord = 'k4Dz9U'
     let role = 0
   
     let signature = ZoomMtg.generateSignature({ apiKey, apiSecret, meetingNumber, role })
